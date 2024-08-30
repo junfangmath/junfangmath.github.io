@@ -90,12 +90,7 @@ content:
       caption: 2019 - 2024
       description: | 
         My research focuses on nonlinear finite element analysis and simulation, computational fluid dynamics, numerical analysis, and numerical solutions of partial differential equations.
-    - layout: top-right
-      title: Xinjiang University
-      sub_title: Bachelor of Science
-      caption: 2015 - 2019
-      description: | 
-        I graduated as the top student in the major, and earned direct admission to the master's program at the Institute of Applied Physics and Computational Mathematics without the need for entrance exams.
+    
   - title: Experience
     layout: list
     content:
