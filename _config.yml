@@ -85,15 +85,15 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: Institute of Applied Physics and Computational Mathematics
-        sub_title: Ph.D. Candidate
-        caption: 2019 - 2024
+        title: Institute of Applied Physics and Computational Mathematics, China Academy of Engineering Physics
+        sub_title: Ph.D. in Computational Mathematics
+        caption: 2019.09 - 2025.06
         description: | 
           My research focuses on nonlinear finite element analysis and simulation, computational fluid dynamics, numerical analysis, and numerical solutions of partial differential equations.
       - layout: top-right
-        title: Xinjiang University
-        sub_title: Bachelor of Science
-        caption: 2015 - 2019
+        title: College of Mathematics and System Science, Xinjiang University
+        sub_title: B.S. in Mathematics
+        caption: 2015.09 - 2019.06
         description: | 
           I graduated as the top student in the major, and earned direct admission to the master's program at the Institute of Applied Physics and Computational Mathematics without the need for entrance exams.
   - title: Experience
