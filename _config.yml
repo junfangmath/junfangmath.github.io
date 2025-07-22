@@ -61,26 +61,6 @@ about_content: | # this will include new lines to allow paragraphs
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Education
     layout: list
     content:
@@ -96,6 +76,34 @@ content:
         caption: 2015.09 - 2019.06
         description: | 
           I graduated as the top student in the major, and earned direct admission to the master's program at the Institute of Applied Physics and Computational Mathematics without the need for entrance exams.
+  - title: Research Work # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 1. Numerical Methods for Nonlinear Diffusion Equations
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        #additional_links:
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #quote: >
+          #Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          （1）A new nonlinear finite element method is studied to solve multi-dimensional anisotropic nonlinear diffusion equation with nonlinear capacity term, especially to secure a vivid simulation in the case of problems with transient physical quantities. In the scheme design, fully implicit two-layer coupled discretization is applied to assure high time accuracy, and finite element discretization is applied to assure high space accuracy. By introducing Ritz projection and new inductive reasoning methods, we develop the discrete functional analysis technique from that for finite difference schemes, and establish a new general analysis framework for nonlinear finite element schemes. Consequently, we overcome the difficulties arising from the strong coupling of the nonlinear finite element discretizations for the capacity term and diffusion operator, and prove the existence and boundedness of the nonlinear finite element solution, as well as its second-order time and optimal order space convergence. Numerical experiments and comparisons confirm the theoretical analysis results and demonstrate its high performance. This work was published in the *Journal of Computational and Applied Mathematics*.
+        description: | # this will include new lines to allow paragraphs
+          （2）This paper presents the stability of a two-layer coupled discretization fully implicit finite element scheme as well as the uniqueness of its solution. The scheme has been proposed for solving multi-dimensional anisotropic diffusion equations with nonlinear capacity term, and the existence and convergence of its solution have been proved in [Fang et al., J. Comput. Appl. Math. 438 (2024) 115512]. However, the basic theoretical analysis is incomplete, for example, the stability and uniqueness have not been solved yet, which are very important for the application of numerical methods in engineering. In this paper, we further develop the discrete functional analysis techniques to establish a framework with relatively comprehensive theoretical results. Wherein by introducing Ritz projection, rewriting the error equations into equivalent forms, and choosing appropriate test functions, we propose a new inductive argument to overcome the difficulties arising from the coupled nonlinear discretization of the diffusion operator and capacity term. Consequently, on the basis of the existence and convergence properties, we prove for the first time that the nonlinear finite element method is stable, thereby its solution is unique. Numerical examples show that the scheme is stable and has no numerical oscillations compared with the classical Crank--Nicolson scheme. This work was published in the *Journal of Computational and Applied Mathematics*.
+       - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 2. Numerical Methods for Fluid Dynamics Equations
+        description: | # this will include new lines to allow paragraphs
+          This paper is a preliminary investigation into a Lagrangian hydrodynamic scheme that is motivated by the desire for resisting mesh tangling.  Instead of using the nonlinear Euler equations and moving grids as the starting point for this research, a generic acoustic wave system, as an analogy of Lagrangian gas dynamic equations,  and its numerical methods  are adopted.  Two well-known node-based Riemann solvers (Maire et al's Riemann solver and Despr\'{e}s and Mazeran's Riemann solver) are applied to acoustic equations and their dissipative behaviors of discrete vorticity are displayed. Furthermore, a simple correction algorithm is presented to preserve the original vorticity invariance by constructing single pressure at each grid node. The proposed approach can be naturally extended to second-order accuracy on arbitrary quadrilateral or triangular meshes. Numerical experiments validate the  vorticity preservation property of new Riemann solvers and exhibits the advantages of algorithms, such as isotropy in symmetric problems and robustness in shock wave computations. This work has been submitted to the *Journal of Computational Physics* and is currently under review.
   - title: Experience
     layout: list
     content:
